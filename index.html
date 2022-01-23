@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>score keeper</title>
+<link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+	<div class="card">
+		<img src="images/pingpong.jpg" alt="" class="ping">
+		<div class="card__title">
+			<p>Ping Pong Score Keeper</p>
+		</div>
+		<div class="card__score">
+			<p><span id="p1">0</span> to <span id="p2">0</span></p>
+			<p>Use the button below to keep score</p>
+			<label for="selector"> Playing to</label>
+			<select name="listBox" id="selector">
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+			</select>
+		</div>
+		<div class="card__control"  >
+			<button class="card__control__grp" id="player1">
+				<span>+1 Player One</span>
+			</button>
+			<button class="card__control__grp" id="player2">
+				<span >+1 Player Two</span>
+			</button>
+			<button class="card__control__grp" id="reset">
+				<span>Reset</span>
+			</button>
+		</div>
+	</div>
+	<script src="javascript/app.js"></script>
+</body>
+</html>
+

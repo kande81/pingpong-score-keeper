@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body {
+	display: flex;
+	justify-content: center;
+	background-color: #fff;
+}
+
+/*CARD*/
+
+.card {
+	width: 45%;
+	margin-top: 60px;
+	box-shadow:0 0.5em 1em #0a0a0a1a;
+	border-radius: 8px;
+	background-color: #fff;
+}
+
+img {
+	width: 100%;
+}
+
+.card__title {
+	font-size: 1rem;
+	font-weight: bold;
+	box-shadow: 0 2px 3px #0a0a0a1a;
+	padding: 10px 0px 10px 15px;
+	}
+
+.card__score {
+	padding-left:20px;
+		padding-bottom: 10px;
+}
+
+.card__score p:first-child {
+	font-size: 3.3rem;
+	font-weight: bold;
+}
+
+.card__score p:nth-child(2) {
+	font-size: 1.2rem;
+	
+}
+
+label {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-top: 11px;
+	display: inline-block;
+	}
+select {
+	display: inline-block;
+	border-radius: 20px;
+	height: 30px;
+	width: 12%;
+	text-align: center;
+}
+.card__control {
+	display: flex;
+	text-align: center;
+	margin-top: 10px;
+	justify-content: space-between;
+
+
+	}
+#player1 {
+	background-color: #00d1b2;
+/*	width: 40%;*/
+	flex-grow: .3;
+}
+
+#player2 {
+	background-color:#3298dc;
+/*		width: 40%;*/
+	flex-grow: .39;
+
+}
+
+
+
+
+#reset {
+	background-color:#f14668;
+/*		width: 20%;*/
+	flex-grow: .3;
+
+}
+
+.card__control__grp {
+	padding: 15px 9px;
+	border-radius: 4px;
+}
+
+.winner {
+	color: green;
+}
+
+.looser {
+	color: red;
+}
