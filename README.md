@@ -1,5 +1,6 @@
 # pingpong-score-keeper
-![pingpong-scoreKeeper](https://user-images.githubusercontent.com/71079290/150671147-df3978cf-aa38-4d32-a2dc-56216e737d7a.jpg)
+![score-keeper-300](https://user-images.githubusercontent.com/71079290/150672007-5582abd4-2e9d-4377-b59f-5713e6e43a48.png)
+
 
 ## Features
 
