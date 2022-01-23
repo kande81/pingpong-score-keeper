@@ -8,4 +8,4 @@ This is a demo score keeper build with html, css and javascript. The user can se
 and the game will be played to that selected score. You can click the 'player one' and 'player two' button to increase the number display. 
 Once one of the player wins, it's score display will turn green and the looser's score will be red. You can reset the game by clicking on the red reset button.
 
-you can try it live with [git hub page](https://kande81.github.io/pingpong-score-keeper/)
+you can try it live with [github page](https://kande81.github.io/pingpong-score-keeper/)
